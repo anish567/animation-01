@@ -1,0 +1,28 @@
+*{
+    background-color: lightskyblue;
+}
+
+.child1{
+    width: 25px;
+    height: 25px;
+    background-color: palevioletred;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    border-radius: 50%;
+    animation: some 5s linear 0s infinite alternate none;
+}
+
+@keyframes some{
+    0%{
+        background-color: peru;
+    }
+    50%{
+        background-color: plum;
+        
+    }
+    100%{
+        background-color: palevioletred;
+    }
+}
